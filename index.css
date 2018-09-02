@@ -1,0 +1,37 @@
+body{
+  background: black;
+}
+#wrap{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0px;
+  height: 100px;
+  margin-top: -50px;
+  display: flex;
+}
+.key{
+  flex: 1;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 2px;
+  border-color: white;
+  background: black;
+  outline: none;
+}
+.key:hover{
+  background: white;
+  border-color: black;
+  color: black;
+}
+.clicked{
+  background: white;
+  border-color: black;
+  color: black;
+}
